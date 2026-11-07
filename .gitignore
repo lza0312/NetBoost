@@ -1,0 +1,24 @@
+# 构建产物
+bin/
+obj/
+publish/
+_dl/
+
+# 本地/临时产物
+.vs/
+*.user
+*.suo
+*.log
+*.tmp
+*.bak
+*.cache
+
+# 渲染、截图等临时文件
+*.png
+*.jpg
+*.bmp
+!Assets/*.png
+!Assets/*.ico
+
+# 兜底 IP 表缓存（运行时生成于 %LOCALAPPDATA%，此处兜底）
+github-ips.json
